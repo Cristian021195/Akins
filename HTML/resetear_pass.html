@@ -1,0 +1,85 @@
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maxium-scale=1, minium-scale=1">
+    <script src="../JS/jQuery.js"></script>
+    <script src="../JS/main.js"></script>
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="CSS/resetear_pass.css">
+    <link rel="shorcut icon" type="image/x-icon" href=".ico">
+    <title>Resetear Constraseña</title>
+</head>
+
+<body>
+   <header>
+    <div class="icono_akins">
+    <a href="../index.html"><img src="../IMG/ICONOS/logo.png" alt="inicio" height="50px"></a>
+    </div>
+    <div class="menu_bar">
+    <a href="#" onClick="return false" class="bt-menu"><span class="icon-menu"></span></a>
+    </div>
+    <nav class="navegacion_menu"><!--lo mismo que div class="menu_bar"-->
+        <ul>
+            <li><a href="#link_2"><span class="icon-gift"></span>Eventos</a></li>
+            <li><a href="#"><span class="icon-arrow-down"></span>Descargas</a></li>
+            <li><a href="#link_1"><span class="icon-info"></span>Informacion</a></li>
+            <li class="submenu">
+              <a href="#" onClick="return false" class="submenu"><span class="icon-share2"></span>Redes <span class="caret icon-chevron-down"></span></a>
+                <ul class="children">
+                <li><a href="#" >Foro<span class="icon-dot-single"></span></a></li>
+                <li><a href="#">Fan Page<span class="icon-dot-single"></span></a></li>
+                <li><a href="#">Grupo Oficial<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li class="submenu" id="donacion_list"><a href="#link_3" class="submenu"><span class="icon-coin-dollar"></span> Donar</a><a href="#" id="especifico" onClick="return false" class="submenu"><span class="caret icon-chevron-down"></span></a>
+                <ul class="children">
+                    <li><a href="#">Confirmar Donacion<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li class="submenu"><a href="#" onClick="return false" class="submenu"><span class="icon-stats-dots"></span>Estadisticas <span class="caret icon-chevron-down"></span></a>
+                <ul class="children">
+                    <li><a href="#">Ranking Hero<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Top PVP<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Top PK<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Raid Status<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Mapa Online<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li class="submenu"><a href="#" class="submenu" onClick="return false" ><span class="icon-display"></span>Auto Servicio <span class="caret icon-chevron-down"></span></a>
+                <ul class="children">
+                    <li><a href="../HTML/sub_class.html" target="_blank">Sub Class<span class="icon-dot-single"></span></a></li>
+                    <li><a href="../HTML/vote_reward.html" target="_blank">Vote Reward<span class="icon-dot-single"></span></a></li>
+                    <li><a href="../HTML/cambiar_nick.html" target="_blank">Cambiar Nombre<span class="icon-dot-single"></span></a></li>
+                    <li><a href="../HTML/cambiar_sexo.html" target="_blank">Cambiar Genero<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+            <li class="submenu" id="panel_cuenta"><a href="HTML/panel_cuentas.html" class="submenu" onClick="return false"><span class="icon-user"></span>Panel de Cuentas <span class="caret icon-chevron-down"></span></a>
+                <ul class="children">
+                    <li><a href="../HTML/crear_cuenta.html" target="_blank">Crear Cuenta<span class="icon-dot-single"></span></a></li>
+                    <li><a href="../HTML/cambiar_pass.html" target="_blank">Cambiar Contraseña<span class="icon-dot-single"></span></a></li>
+                    <li><a href="#">Restablecer Contraseña<span class="icon-dot-single"></span></a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section>
+        <article>
+        <h1>PANEL DE CUENTAS</h1>
+        <h2>Resetear Contraseña</h2>
+        </article>
+        <article>
+            <div class="caja_reset">
+                <form action="" method="post" class="form_reset_pass">
+                    <input type="text" placeholder="Nombre de Cuenta.." class="texto_cuenta">
+                    <input type="email" placeholder="Correo electronico.." class="texto_cuenta">
+                    <input type="reset" value="Limpiar" name="limpiar_datos" class="botones">
+                    <input type="submit" name="enviar_datos_reset" value="CREAR" class="botones">
+                </form>
+            </div>
+        </article>
+    </section>   
+</body>
+</html>
